@@ -4,6 +4,7 @@ int sum(int x, int y)
 {
 	int c;
 	c = x + y;
+	return c;
 
 	
 }
@@ -19,6 +20,8 @@ int main()
 	
 	int c = sum(a, b);
 	printf("Sum of %d and %d : %d", a, b, c);
+	
+	return 0;
 
 }
 
